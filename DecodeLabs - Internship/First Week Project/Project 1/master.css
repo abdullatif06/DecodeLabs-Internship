@@ -1,0 +1,90 @@
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 120px;
+  background: #ffffff;
+}
+
+.header_nav{
+  display: flex;
+  gap: 20px;
+}
+
+/* Hero Section */
+.hero-section{
+  text-align: center;
+  padding: 60px 120px;
+}
+
+.hero-section-title{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section-subtitle{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.hero-section-cta{
+  padding: 1rem;
+  border-radius: 4px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button--primary{
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Content Grid */
+.content-grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 120px;
+}
+
+.content-grid-heading{
+  grid-column: span 12;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card{
+  grid-column: span 4;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.grid-heading{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card-content{
+  padding: 0 1rem 1rem;
+}
+
+.card-image{
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer{
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+}
